@@ -1,0 +1,37 @@
+--2020-12-18 11:10:42--  ftp://250003/
+           => ‘wget-log’
+Resolving 250003 (250003)... 0.3.208.147
+Connecting to 250003 (250003)|0.3.208.147|:21... failed: Invalid argument.
+--2020-12-18 11:10:42--  http://failed/
+Resolving failed (failed)... failed: Name or service not known.
+wget: unable to resolve host address ‘failed’
+--2020-12-18 11:10:42--  http://to/
+Resolving to (to)... failed: No address associated with hostname.
+wget: unable to resolve host address ‘to’
+--2020-12-18 11:10:42--  http://get/
+Resolving get (get)... failed: Name or service not known.
+wget: unable to resolve host address ‘get’
+--2020-12-18 11:10:42--  http://the/
+Resolving the (the)... failed: Name or service not known.
+wget: unable to resolve host address ‘the’
+--2020-12-18 11:10:43--  http://response./
+Resolving response. (response.)... failed: Name or service not known.
+wget: unable to resolve host address ‘response.’
+--2020-12-18 11:10:43--  http://hanging/?
+Resolving hanging (hanging)... failed: Name or service not known.
+wget: unable to resolve host address ‘hanging’
+--2020-12-18 11:10:43--  ftp://method/
+           => ‘.listing’
+Resolving method (method)... failed: Name or service not known.
+wget: unable to resolve host address ‘method’
+--2020-12-18 11:10:43--  http://post,/
+Resolving post, (post,)... failed: Name or service not known.
+wget: unable to resolve host address ‘post,’
+--2020-12-18 11:10:43--  ftp://url/
+           => ‘.listing’
+Resolving url (url)... failed: Name or service not known.
+wget: unable to resolve host address ‘url’
+--2020-12-18 11:10:43--  https://wwa97522.us-east-1.snowflakecomputing.com.snowflakecomputing.com/session/v1/login-request?request_id=e05fc531-1622-4081-824c-430d441ab8c7
+Resolving wwa97522.us-east-1.snowflakecomputing.com.snowflakecomputing.com (wwa97522.us-east-1.snowflakecomputing.com.snowflakecomputing.com)... 34.211.198.209, 52.36.43.175, 44.234.197.223
+Connecting to wwa97522.us-east-1.snowflakecomputing.com.snowflakecomputing.com (wwa97522.us-east-1.snowflakecomputing.com.snowflakecomputing.com)|34.211.198.209|:443... connected.
+The certificate's owner does not match hostname ‘wwa97522.us-east-1.snowflakecomputing.com.snowflakecomputing.com’
